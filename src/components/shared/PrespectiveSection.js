@@ -2,7 +2,6 @@ import React from "react";
 import NuclearEthics from "../images/nuclear-ethics.png";
 
 const PrespectiveSection = () => {
-
   return (
     <div className="grid grid-cols-2 w-full py-10">
       <div className="w-full">
@@ -36,7 +35,17 @@ const PrespectiveSection = () => {
           >
             Ethical Prespective
           </a>
-          <a className="flex flex-row gap-2 mt-10 text-xl text-space-cadet items-center" href="/">
+          <div className="border-l-4 h-20 border-terracota" />
+          <a
+            className="border border-terracota bg-white h-10 rounded-md w-15 p-2 hover:bg-terracota hover:text-white"
+            href="#personal"
+          >
+            Personal Prespective
+          </a>
+          <a
+            className="flex flex-row gap-2 mt-10 text-xl text-space-cadet items-center"
+            href="/"
+          >
             <div>
               <svg
                 width="24"
@@ -99,16 +108,15 @@ const PrespectiveSection = () => {
             Educating the Public
           </h2>
           <h2>
-            The majority of the general public has not yet become
-            familiar with the usage of Nuclear Power, which dramatically affects
-            the societal perspective in retrospect to the technology. A paper by
-            the Nuclear Energy Agency describes how citizens in countries where
-            Nuclear technology is already being used are more in favour of the
-            operation because they are learned of the process, the benefits and
-            the risks. On the contrary, the public in countries where the
-            government has not integrated nuclear technology in their system are
-            against the technology because they have not learned of its
-            abilities.
+            The majority of the general public has not yet become familiar with
+            the usage of Nuclear Power, which dramatically affects the societal
+            perspective in retrospect to the technology. A paper by the Nuclear
+            Energy Agency describes how citizens in countries where Nuclear
+            technology is already being used are more in favour of the operation
+            because they are learned of the process, the benefits and the risks.
+            On the contrary, the public in countries where the government has
+            not integrated nuclear technology in their system are against the
+            technology because they have not learned of its abilities.
           </h2>
         </div>
 
@@ -121,7 +129,7 @@ const PrespectiveSection = () => {
             dilemma: ethics. Over the years, a progressive concern for terrorism
             attacks occurring at nuclear power plants has risen substantially.
             We can also reflect on disasters such as Chernobyl, where dangerous
-            tests were taking place without permission from moderators.
+            tests were taking place without permission from regulators.
             Occurrences like this shape a negative ethical perspective on
             nuclear technology.
           </h2>
@@ -147,7 +155,31 @@ const PrespectiveSection = () => {
             can make a significant impact in improving ethical dilemmas. See
             below for a summary of the beliefs of the various perspectives.
           </h2>
-        </div>
+          <div className="flex flex-col gap-6">
+          <h2 className="text-2xl font-bold" id="personal">
+            Personal Position
+          </h2>
+          <h2>
+          I believe nuclear technology is a very significant advancement in
+           world of science. Nuclear power plants, although more costly
+           than regular coal power plants, have a better environmental impact and can prove
+           effective in the long run. Since this technology is currently in
+           development, I believe that is why some faulty occurrences have taken
+           place (e.g. Chernobyl). Reactors like the CANDU are already gaining
+           more significant usage across the globe and with further implementation, and
+           advancements in the technology, we can see an increase in the speed of
+           reactor development while keeping quality. As the cost of building
+           nuclear reactors are relatively high; we also need to remember that they
+           are cheaper to maintain and can be kept for a more extended period
+           than our usual fossil fuel burning power plants. From researching the
+           CANDU in-depth, we can see that everything has been thought out
+           thoroughly; from the storage and disposal process all the way to
+           engineering a safer design with greater efficiency - the only
+           necessary measures I believe need to come into play is greater
+           regulatory services and security to satisfy ethical concerns.
+          </h2>
+          </div>
+          </div>
       </div>
 
       <div className="mt-40 col-span-2 items-center flex flex-row w-full px-32 justify-between h-96">
@@ -167,9 +199,14 @@ const PrespectiveSection = () => {
         </div>
 
         <div className="p-4 bg-terracota bg-opacity-50 h-full w-64 flex flex-col text-center items-center gap-4 transition duration-500 ease-in-out transform hover:scale-105">
-          <h2 className="text-4xl font-extrabold text-terracota opacity-50">Ecological Prespective</h2>
+          <h2 className="text-4xl font-extrabold text-terracota opacity-50">
+            Ecological Prespective
+          </h2>
           <ul className={`text-white text-left flex flex-col gap-3`}>
-            <li>Produces a lower carbon footprint compared to other energy production sources</li>
+            <li>
+              Produces a lower carbon footprint compared to other energy
+              production sources
+            </li>
             <li>
               Radiation from nuclear waste is harmful to environemnt and humans
             </li>
@@ -177,7 +214,9 @@ const PrespectiveSection = () => {
         </div>
 
         <div className="p-4 bg-bright-green bg-opacity-50 text-center h-full w-64 flex flex-col items-center gap-4 transition duration-500 ease-in-out transform hover:scale-105">
-          <h2 className="text-4xl font-extrabold text-bright-green opacity-50">Societal Prespective</h2>
+          <h2 className="text-4xl font-extrabold text-bright-green opacity-50">
+            Societal Prespective
+          </h2>
           <ul className={`text-white text-left flex flex-col gap-3`}>
             <li>
               Those who are learned of nuclear techonolgy support it, and those
@@ -188,7 +227,9 @@ const PrespectiveSection = () => {
         </div>
 
         <div className="bg-grey-teal p-4 bg-opacity-50 text-center h-full w-64 flex flex-col items-center gap-4 transition duration-500 ease-in-out transform hover:scale-105">
-          <h2 className="text-4xl font-extrabold text-grey-teal opacity-50">Ethical Prespective</h2>
+          <h2 className="text-4xl font-extrabold text-grey-teal opacity-50">
+            Ethical Prespective
+          </h2>
           <ul className={`text-white text-left flex flex-col gap-3`}>
             <li>Rise in terrorism attack on nuclear powerplants</li>
             <li>
