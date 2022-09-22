@@ -88,9 +88,10 @@ const PrespectiveSection = () => {
             nuclear reactors, has a higher cost and time factor. According to an
             article from the New York Times, it is said that “Responding to such
             a climate emergency with nuclear power is like calling on a sloth to
-            put out a house fire”. This is an interesting response to the issue
-            of global warming and climate change as it goes to show how even the
-            “best” solutions cannot satisfy all aspects of today’s world.
+            put out a house fire”. This is a fair stance on the issue as in the
+            last 10 years, only 63 nuclear reactors have been built. As for the
+            cost of building the reactors, it can range anywhere from{" "}
+            <span className="text-terracota font-bold">$3 - $6 billion.</span>
           </h2>
 
           <h2 id="ecological">
@@ -156,30 +157,31 @@ const PrespectiveSection = () => {
             below for a summary of the beliefs of the various perspectives.
           </h2>
           <div className="flex flex-col gap-6">
-          <h2 className="text-2xl font-bold" id="personal">
-            Personal Position
-          </h2>
-          <h2>
-          I believe nuclear technology is a very significant advancement in
-           world of science. Nuclear power plants, although more costly
-           than regular coal power plants, have a better environmental impact and can prove
-           effective in the long run. Since this technology is currently in
-           development, I believe that is why some faulty occurrences have taken
-           place (e.g. Chernobyl). Reactors like the CANDU are already gaining
-           more significant usage across the globe and with further implementation, and
-           advancements in the technology, we can see an increase in the speed of
-           reactor development while keeping quality. As the cost of building
-           nuclear reactors are relatively high; we also need to remember that they
-           are cheaper to maintain and can be kept for a more extended period
-           than our usual fossil fuel burning power plants. From researching the
-           CANDU in-depth, we can see that everything has been thought out
-           thoroughly; from the storage and disposal process all the way to
-           engineering a safer design with greater efficiency - the only
-           necessary measures I believe need to come into play is greater
-           regulatory services and security to satisfy ethical concerns.
-          </h2>
+            <h2 className="text-2xl font-bold" id="personal">
+              Personal Position
+            </h2>
+            <h2>
+              I believe nuclear technology is a very significant advancement in
+              world of science. Nuclear power plants, although more costly than
+              regular coal power plants, have a better environmental impact and
+              can prove effective in the long run. Since this technology is
+              currently in development, I believe that is why some faulty
+              occurrences have taken place (e.g. Chernobyl). Reactors like the
+              CANDU are already gaining more significant usage across the globe
+              and with further implementation, and advancements in the
+              technology, we can see an increase in the speed of reactor
+              development while keeping quality. As the cost of building nuclear
+              reactors are relatively high; we also need to remember that they
+              are cheaper to maintain and can be kept for a more extended period
+              than our usual fossil fuel burning power plants. From researching
+              the CANDU in-depth, we can see that everything has been thought
+              out thoroughly; from the storage and disposal process all the way
+              to engineering a safer design with greater efficiency - the only
+              necessary measures I believe need to come into play is greater
+              regulatory services and security to satisfy ethical concerns.
+            </h2>
           </div>
-          </div>
+        </div>
       </div>
 
       <div className="mt-40 col-span-2 items-center flex flex-row w-full px-32 justify-between h-96">

@@ -37,19 +37,20 @@ function AboutSection() {
           >
             Reactor Feul
           </a>
-          <div className="border-l-4 h-20 border-terracota" />
-          <a
-            className="border border-terracota bg-white h-10 rounded-md w-15 p-2 hover:bg-terracota hover:text-white"
-            href="#moderator"
-          >
-            Moderator: Heavy Water
-          </a>
+          
           <div className="border-l-4 h-20 border-terracota" />
           <a
             className="border border-terracota bg-white h-10 rounded-md w-15 p-2 hover:bg-terracota hover:text-white"
             href="#radiation"
           >
             Ionizing Radiation
+          </a>
+          <div className="border-l-4 h-20 border-terracota" />
+          <a
+            className="border border-terracota bg-white h-10 rounded-md w-15 p-2 hover:bg-terracota hover:text-white"
+            href="#moderator"
+          >
+            Moderator: Heavy Water
           </a>
           <div className="border-l-4 h-20 border-terracota" />
           <a
@@ -242,9 +243,11 @@ function AboutSection() {
                 half-life
               </span>
               . The half-life of uranium-238 is roughly 4.5 billion years, while
-              uranium-235’s is 700 million. Those are massive amounts of time
-              that need to be considered when we create over half a million
-              tonnes of uranium waste annually.
+              uranium-235’s is 700 million. As we come close to these periods
+              and of time and exceed them, the concentration of the radioactivity
+              of the material will decrease. However, these are massive
+              amounts of time that need to be considered when we create over
+              half a million tonnes of uranium waste annually.
             </h2>
           </div>
           <div
@@ -303,16 +306,18 @@ function AboutSection() {
           account for the heat and radioactivity in the waste. Fuel bundles are
           first put into pools filled with water to reduce their heat and
           radioactivity for 7-10 years. This initial step of storage is called
-          <span className="text-grey-teal font-semibold"> wet storage</span>. After this period, they are taken out of the pools and
-          stored in containers reinforced with high-density concrete and steel.
-          These containers help keep the radiation from getting out, while
-          keeping the chemical toxicity of the fuel bundles inside. This process is called <span className="text-grey-teal font-semibold">dry storage</span>, and fuel bundles can
-          stay in these containers for a minimum of 50 years, but these bundles
-          can continue to remain in the containers for longer, given that they
-          are being adequately maintained. Waste from the CANDU is most commonly
-          put through geological disposal, which involves placing fuel bundles
-          in a sediment rock and setting them hundreds of metres from the
-          earth's surface.
+          <span className="text-grey-teal font-semibold"> wet storage</span>.
+          After this period, they are taken out of the pools and stored in
+          containers reinforced with high-density concrete and steel. These
+          containers help keep the radiation from getting out, while keeping the
+          chemical toxicity of the fuel bundles inside. This process is called{" "}
+          <span className="text-grey-teal font-semibold">dry storage</span>, and
+          fuel bundles can stay in these containers for a minimum of 50 years,
+          but these bundles can continue to remain in the containers for longer,
+          given that they are being adequately maintained. Waste from the CANDU
+          is most commonly put through geological disposal, which involves
+          placing fuel bundles in a sediment rock and setting them hundreds of
+          metres from the earth's surface.
         </h2>
       </div>
     </div>
